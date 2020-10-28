@@ -37,6 +37,7 @@ HTMLWidgets.widget({
         </p>
       </video>
       </div>`;
+      videojs(document.querySelector(`#${el.id} video`));
         });
       },
 
