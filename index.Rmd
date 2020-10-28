@@ -1,0 +1,10 @@
+---
+title: doivideo debug
+output: html_document
+---
+This is a paragraph before the doivideo widget.
+```{R echo = FALSE}
+library(doivideo)
+doivideo(doi = '10.22002/D1.1350', index = 0)
+```
+This is a paragraph after the doivideo widget.
